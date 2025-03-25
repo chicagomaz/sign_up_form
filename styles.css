@@ -1,0 +1,62 @@
+body{
+    font-family: 'Nunito-sans', sans-serif;
+    margin: 0px;
+    padding-block: 5rem;
+    padding-inline: 20rem;
+    background-color: black;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 570px 1fr;
+    height: 50rem;
+}
+
+.first-container{
+    background-image: url(assets/winter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.second-container{
+    background-color: rgb(248, 248, 248);
+    display: grid; 
+}
+
+.second-container h1{
+    padding-top: 6rem;
+    padding-bottom: -2rem;
+    padding-inline: 2rem;
+}
+
+fieldset {
+    border: none;
+}
+
+.form-container{
+    background-color: white;
+    box-shadow: 0px 5px 10px grey;
+    margin-bottom: 1rem;
+    
+   
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row input{
+    flex: 1;
+
+}
+
+
+.bottom-line{
+    margin-bottom: 10rem;
+    margin-right: 20rem;
+    margin-left: 2rem;
+    
+}
+
